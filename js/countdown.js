@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+$(document).ready(function() {
 
 	// Create new jQuery function to handle countdown
 	(function($) {
@@ -48,7 +48,7 @@ $( document ).ready(function() {
 			// Set countdown display
 			function updateCountdown(endDate) {
 				var countData = getCounterData(endDate);
-				
+
 				_this.find(".days").text(countData.days);
 				_this.find(".hours").text(countData.hours);
 				_this.find(".minutes").text(countData.minutes);
@@ -70,6 +70,6 @@ $( document ).ready(function() {
 	}) (jQuery);
 
 	// Run countdown function
-	$("#countdown").countdown("2016-12-31 23:59:59");
+	$("#countdown").countdown("2016/12/31 23:59:59");
 
 });
