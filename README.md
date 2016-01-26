@@ -3,7 +3,7 @@
 A countdown clock written in HTML, CSS, JavaScript, and jQuery.  To change the countdown end time, open up countdown.js and edit the datetime string on line 72.
 
 **Notes:**
-* Works for user's current timezone.  Code will have to be updated if we want to account for timezone differences.
+* Works for server's current timezone.  Code will have to be updated if we want to account for timezone differences.
 * When countdown reaches 00:00:00:00, alert message "Happy New Year!" shows up
 * Found background image for numbers at http://www.jqueryscript.net/demo/Beautiful-jQuery-Countdown-Timer-Plugin/, sliced it into 3 parts using GIMP 2.  My code is different than the code available on this site.
 
